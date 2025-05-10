@@ -13,6 +13,7 @@ html,body{
     background-color: #F8F8F8;
     position: relative;
     padding-top: 0.1px;
+    font-family: 'Gilroy';
 }
 #nav{
     height: 12vh;
@@ -23,29 +24,19 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-<<<<<<< HEAD
     font-family: 'Gilroy';
-=======
->>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
 
 }
 #nav h2{
     
     height: 100%;
-<<<<<<< HEAD
     width: 22%;
-=======
-    width: 20%;
->>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
     display: flex;
     align-items: center;
     justify-content: center;
     border-right: 2px solid black;
-<<<<<<< HEAD
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 600;
-=======
->>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
 }
 #nav h1{
     
@@ -54,13 +45,70 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     font-family: monument;
+    font-size: 35px;
+    letter-spacing: -1px;
 }
 #nav h2:nth-last-child(1){
     width: 10%;
-
-
-=======
->>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
+}
+#nav h2:nth-last-child(2){
+    width: 29%;
+}
+#center{
+    height: 90%;
+    width: 100%;
+    padding: 4vw;
+    position: relative;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: blue;
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+    padding: 3vw;
+    color: #F8F8F8;
+}
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+#over1 h1{
+    font-size: 3.6vw;
+    font-family: monument;
+}
+#over1 h2{
+    font-size: 1vw;
+    padding: 2vw 2.4vw;
+    border-radius: 50%;
+    border: 2px solid #F8F8F8;
+    
+}
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #F8F8F8;
+    padding: 1.5vw 0;
+}
+#over2 h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#over2 img{
+    height: 3vw;
 }
