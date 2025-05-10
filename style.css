@@ -23,19 +23,29 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     font-family: 'Gilroy';
+=======
+>>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
 
 }
 #nav h2{
     
     height: 100%;
+<<<<<<< HEAD
     width: 22%;
+=======
+    width: 20%;
+>>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
     display: flex;
     align-items: center;
     justify-content: center;
     border-right: 2px solid black;
+<<<<<<< HEAD
     font-size: 22px;
     font-weight: 600;
+=======
+>>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
 }
 #nav h1{
     
@@ -44,10 +54,13 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     font-family: monument;
 }
 #nav h2:nth-last-child(1){
     width: 10%;
 
 
+=======
+>>>>>>> ae1500af7994805ca84e868c8ed376e9a12c6df1
 }
