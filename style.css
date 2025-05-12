@@ -59,7 +59,7 @@ html,body{
     height: 90%;
     width: 100%;
     padding: 4vw;
-    position: relative;
+    
 }
 #content{
     height: 100%;
@@ -73,13 +73,13 @@ html,body{
     object-fit: cover;
 }
 #overlay{
-    height: 55%;
+    height: 60%;
     width: 100%;
     position: absolute;
     bottom: 0;
-    
     padding: 3vw;
     color: #F8F8F8;
+
 }
 #over1{
     display: flex;
@@ -111,4 +111,33 @@ html,body{
 }
 #over2 img{
     height: 3vw;
+}
+#scroll{
+    height: 40vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#container{
+    height: 95%;
+    width: 100%;
+    display: inline-block;
+    padding: 2vw;
+}
+#scroll img{
+    height: 110%;
+    border-radius: 50%;
+    width: 15%;
+    object-fit: cover;
+    object-position: top;
+    margin: 1vw;
+}
+@keyframes anime{
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translatex(-100%);
+    }
 }
